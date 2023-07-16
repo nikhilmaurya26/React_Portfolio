@@ -1,1 +1,25 @@
-$mainColor: #15023a;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+$mainColor: rgb(15 23 42);
+$width:768px;
+$white: white;
+$Grey-D4D:#D4DDEE;
+$Grey849:#8494af;
+
+
+@mixin mobile{
+    @media(max-width:#{$width}){
+        @content
+    }
+}
+*{font-family: 'Montserrat', sans-serif;}
+
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+
+}
+.fw-600{
+    font-weight: 600;
+}

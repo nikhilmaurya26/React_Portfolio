@@ -8,6 +8,8 @@ import Testimonials from "./Components/testimonials/Testimonials";
 import Contact from "./Components/contact/Contact";
 import Menu from "./Components/menu/Menu"
 import {useState} from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 
 function App() {
@@ -20,7 +22,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Works/>
-        <Testimonials />
         <Contact/>
       </div>
     </div>
